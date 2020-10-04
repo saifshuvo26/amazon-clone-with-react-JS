@@ -1,0 +1,36 @@
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #131921;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header_logo {
+  object-fit: cover;
+  width: 100px;
+  margin: 12px 20px 0;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 12px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  color: whitesmoke;
+  margin: 10px;
+}
+
+.line__one {
+  font-size: 10px;
+}
+
+.line__two {
+  font-weight: 700;
+}
