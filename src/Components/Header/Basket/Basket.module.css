@@ -8,3 +8,7 @@
 .basket__count {
   color: whitesmoke;
 }
+
+.basket {
+  margin: 0 15px 0 10px;
+}
